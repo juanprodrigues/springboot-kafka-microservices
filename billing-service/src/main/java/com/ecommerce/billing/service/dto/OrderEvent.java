@@ -1,0 +1,44 @@
+package com.ecommerce.billing.service.dto;
+
+public class OrderEvent {
+
+    private Long orderId;
+    private String product;
+    private Integer quantity;
+    private Double price;
+
+    public OrderEvent() {
+    }
+
+    public Long getOrderId() {
+        return orderId;
+    }
+
+    public String getProduct() {
+        return product;
+    }
+
+    public Integer getQuantity() {
+        return quantity;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setOrderId(Long orderId) {
+        this.orderId = orderId;
+    }
+
+    public void setProduct(String product) {
+        this.product = product;
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+}
